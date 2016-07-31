@@ -1,5 +1,6 @@
 # SilverStripe Simple Theme Remastered
 ![Simple Remastered Theme](https://github.com/sajansharmanz/silverstripe-simple-remastered/blob/master/docs/example.png "Simple Remastered Theme Example - Creative Gorillas")
+![Simple Remastered Theme](https://github.com/sajansharmanz/silverstripe-simple-remastered/blob/master/docs/security.png "Simple Remastered Theme Example - Creative Gorillas")
 
 ## Description
 SilverStripe Simple Theme Remastered
