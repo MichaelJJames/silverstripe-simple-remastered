@@ -21,7 +21,7 @@
 		"issues": "http://github.com/sajansharmanz/silverstripe-simple-remastered"
 	},
 	"require": {
-		"silverstripe/installers": "*",
+		"composer/installers": "*",
 		"silverstripe/cms": "3.4.0"
 	},
 	"extra": {
