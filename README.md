@@ -1,11 +1,11 @@
 # SilverStripe Simple Theme Remastered
-![alt text](https://github.com/sajansharmanz/silverstripe-simple-remastered/docs/example.png "Simple Remastered Theme Example - Creative Gorillas")
+![Simple Remastered Theme](https://github.com/sajansharmanz/silverstripe-simple-remastered/blob/master/docs/example.png "Simple Remastered Theme Example - Creative Gorillas")
 
 ## Description
 SilverStripe Simple Theme Remastered
 
 ## Author
-This theme was created by [Creative Gorillas](http://www.creativegorillas.com) [Sajan Sharma](http://www.github.com/sajansharmanz). This theme is a revamped version of the "silverstripe-themes/silverstripe-simple" created by Sara (Innovaif)
+This theme was created by [Creative Gorillas](http://www.creativegorillas.com) [Sajan Sharma](http://www.github.com/sajansharmanz). This theme is a revamped version of the ["silverstripe-themes/silverstripe-simple" created by Sara (Innovaif)](https://github.com/silverstripe-themes/silverstripe-simple)
 
 ###### Improvements Made
 - Introduced the Bootstrap Framework and Components
@@ -22,8 +22,6 @@ Manual Installation:
 - Run `http://yoursiteurl?flush=1`
 
 If you have done the above steps correctly you should have a directory as follows `themes/simple-remastered-templates`
-
-Composer Installtion:
 
 ## Usage
 Once successfully installed we are ready to implement the theme
