@@ -15,41 +15,33 @@
 
         <div class="collapse navbar-collapse" id="site-navigation">
             <ul class="nav navbar-nav navbar-right">
-                <li class="visible-xs">
-                    <% if $SearchForm %>
+                <% if $SearchForm %>
+                    <li class="visible-xs">
                         <div class="search-bar">
                             <div class="container">
                                 $SearchForm
                             </div>
                         </div>
-                    <% end_if %>
-                </li>
+                    </li>
+                <% end_if %>
+
                 <% loop $Menu(1) %>
                     <li class="$LinkingMode"><a href="$Link">$MenuTitle.XML</a></li>
                 <% end_loop %>
 
-                <li class="search-dropdown dropdown hidden-xs">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <% if $SearchForm %>
+                <% if $SearchForm %>
+                    <li class="search-dropdown dropdown hidden-xs">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-search"></i></a>
+                        <ul class="dropdown-menu">
+                            <li>
                                 <div class="search-bar">
                                     $SearchForm
                                 </div>
-                            <% end_if %>
-                        </li>
-                    </ul>
-                </li>
+                            </li>
+                        </ul>
+                    </li>
+                <% end_if %>
             </ul>
         </div>
-
-        <!-- <div class="container searchdiv" id="formsearch">
-            <% if $SearchForm %>
-                <span class="search-dropdown-icon">L</span>
-                <div class="search-bar">
-                    $SearchForm
-                </div>
-            <% end_if %>
-        </div> -->
     </div>
 </nav>
