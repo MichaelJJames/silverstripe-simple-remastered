@@ -1,0 +1,12 @@
+body {
+    background-color: #ecf0f1;
+    -webkit-text-size-adjust: none; // Font size is not adjusted for Safari on iPhone */
+    ::selection {
+        color: #fff;
+        background-color: #1abc9c;
+    }
+    ::-moz-selection {
+        color: #fff;
+        background-color: #1abc9c;
+    }
+}

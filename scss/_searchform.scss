@@ -1,0 +1,85 @@
+// Collapsed Search Form - Visible XS
+@media(max-width: $s) {
+    .search-bar {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        input[type="text"] {
+            width: 90%;
+            float: left;
+            display: inline-block;
+            line-height: 30px;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #ecf0f1;
+            color: #bbb;
+            font-style: italic;
+            &:focus {
+                box-shadow: none;
+                outline: none;
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        input[type="submit"] {
+            width: 10%;
+            float: left;
+            display: inline-block;
+            line-height: 30px;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #ecf0f1;
+            color: #bbb;
+            &:active, &:focus, &:hover {
+                color: #fff;
+                outline: none;
+            }
+        }
+    }
+}
+
+// Dropdown Search Form (Not Collpased) - Hidden XS
+@media(min-width: $s) {
+    .search-dropdown {
+        .dropdown-menu {
+            min-width: 400px;
+            padding: 10px 15px;
+            @include border-radius(0);
+            border: none;
+            .search-bar {
+                width: 100%;
+                input[type="text"] {
+                    width: 90%;
+                    float: left;
+                    display: inline-block;
+                    line-height: 30px;
+                    background: transparent;
+                    border: none;
+                    border-bottom: 1px solid #ecf0f1;
+                    color: #bbb;
+                    font-style: italic;
+                    &:focus {
+                        box-shadow: none;
+                        outline: none;
+                        color: #333;
+                        text-decoration: none;
+                    }
+                }
+                input[type="submit"] {
+                    width: 10%;
+                    float: left;
+                    display: inline-block;
+                    line-height: 30px;
+                    background: transparent;
+                    border: none;
+                    border-bottom: 1px solid #ecf0f1;
+                    color: #bbb;
+                    &:active, &:focus, &:hover {
+                        color: #333;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }
+}
