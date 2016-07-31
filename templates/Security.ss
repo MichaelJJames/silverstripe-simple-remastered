@@ -29,7 +29,7 @@
 		                $Form
 					</div>
 					<div class="panel-footer">
-						<a class="site-name" href="$AbsoluteBaseURL">$SiteConfig.Title</a>
+						<a class="site-name" href="$AbsoluteBaseURL">Return to $SiteConfig.Title</a>
 						<a class="attribution" href="http://www.creativegorillas.com" target="_blank">Theme by Creative Gorillas</a>
 					</div>
 	            </div>
