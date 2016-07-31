@@ -11,8 +11,8 @@
 		<meta name="apple-mobile-web-app-status-bar-capable" content="black-transclucent" />
 		<link rel="favicon" type="image/ico" href="favicon.ico" />
 		<% require themedCSS("styles") %>
-		<% require javascript("themes/basic/js/jquery.min.js") %>
-		<% require javascript("themes/basic/js/bootstrap.min.js") %>
+		<% require javascript("themes/simple-remastered/js/jquery.min.js") %>
+		<% require javascript("themes/simple-remastered/js/bootstrap.min.js") %>
 		<title>$Title | $SiteConfig.Title</title>
 	</head>
 	<body style="background-color: #34495e;">
